@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.3.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="100" unitdist="mil" unit="mil" style="dots" multiple="1" display="yes" altdistance="50" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -10615,7 +10615,7 @@ Col 2
 Emt 2</text>
 <text x="113.03" y="74.93" size="1.778" layer="97">T1 is the ambient detector, it can be placed on board or remoted.  JP1 is for the detectors, Collector and Emitter respectively.
 
-Based on Geoff Bunza and the delay and output from Dr. Bruce Chubb's DCC-OD.</text>
+Based on Geoff Bunza's DAPD and the delay and output from Dr. Bruce Chubb's DCC-OD.</text>
 </plain>
 <instances>
 <instance part="R1" gate="G$1" x="137.16" y="104.14" rot="R90"/>
@@ -10658,7 +10658,6 @@ Based on Geoff Bunza and the delay and output from Dr. Bruce Chubb's DCC-OD.</te
 <nets>
 <net name="GND" class="0">
 <segment>
-<pinref part="SUPPLY2" gate="GND" pin="GND"/>
 <pinref part="SUPPLY2" gate="GND" pin="GND"/>
 <wire x1="226.06" y1="96.52" x2="228.6" y2="96.52" width="0.1524" layer="91"/>
 <junction x="226.06" y="96.52"/>
