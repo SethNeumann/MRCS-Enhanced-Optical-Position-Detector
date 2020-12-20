@@ -66,8 +66,8 @@
 <layer number="97" name="Info" color="7" fill="1" visible="no" active="no"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
 <layer number="99" name="SpiceOrder" color="7" fill="1" visible="no" active="no"/>
-<layer number="125" name="_tNames" color="14" fill="1" visible="no" active="yes"/>
-<layer number="151" name="_tDocu" color="14" fill="1" visible="no" active="yes"/>
+<layer number="125" name="_tNames" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="151" name="_tDocu" color="14" fill="1" visible="yes" active="yes"/>
 </layers>
 <board>
 <plain>
@@ -96,6 +96,18 @@ GND</text>
 <hole x="2.794" y="3.048" drill="3.2"/>
 <hole x="42.672" y="2.667" drill="3.2"/>
 <text x="9.398" y="5.334" size="0.762" layer="51" font="vector">rev 4 20201119</text>
+<text x="30.226" y="3.937" size="1.27" layer="151" font="vector" ratio="10" rot="R180">C1</text>
+<text x="20.193" y="17.78" size="1.27" layer="125" font="vector" ratio="10">IC1</text>
+<text x="39.0398" y="27.1272" size="1.27" layer="125" font="vector" ratio="10" rot="R270">JP2</text>
+<text x="9.525" y="11.557" size="0.8128" layer="125" font="vector" ratio="15">R1</text>
+<text x="10.795" y="9.652" size="0.8128" layer="125" font="vector" ratio="15" rot="R180">R2</text>
+<text x="10.795" y="14.859" size="0.8128" layer="125" font="vector" ratio="15" rot="R180">R3</text>
+<text x="26.67" y="19.558" size="0.8128" layer="125" font="vector" ratio="15" rot="R180">R4</text>
+<text x="31.877" y="3.683" size="0.8128" layer="125" font="vector" ratio="15">R5</text>
+<text x="33.147" y="6.858" size="0.8128" layer="125" font="vector" ratio="15" rot="R180">R6</text>
+<text x="31.877" y="11.557" size="0.8128" layer="125" font="vector" ratio="15">R7</text>
+<text x="33.147" y="9.525" size="0.8128" layer="125" font="vector" ratio="15" rot="R180">R8</text>
+<text x="33.147" y="19.05" size="1.27" layer="125" font="vector" ratio="10">T2</text>
 </plain>
 <libraries>
 <library name="linear">
