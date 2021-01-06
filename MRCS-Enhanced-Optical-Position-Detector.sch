@@ -10616,6 +10616,20 @@ Emt 2</text>
 <text x="113.03" y="74.93" size="1.778" layer="97">T1 is the ambient detector, it can be placed on board or remoted.  JP1 is for the detectors, Collector and Emitter respectively.
 
 Based on Geoff Bunza's DAPD and the delay and output from Dr. Bruce Chubb's DCC-OD.</text>
+<text x="91.44" y="137.16" size="1.778" layer="91">Reference Sensor</text>
+<text x="91.44" y="142.24" size="1.778" layer="91">Detector Sensor</text>
+<text x="142.24" y="167.64" size="1.778" layer="91">unblocked ref  sensor should read ~ 1-2 V at pin 2
+note that light may be at 60Hz depending on
+illumination</text>
+<text x="142.24" y="152.4" size="1.778" layer="91">unblocked detector should read 3V 
+(may be AC) at Pin 3 and drop to
+about .2Vwhen covered.
+Measurement with 8W LED 3' away
+ covered by finger. 12V supply.</text>
+<text x="203.2" y="165.1" size="1.778" layer="91">Pin 7 should be at about 100 mV
+with sensors uncovered and go
+to ~2V when detector is covered
+with 12V supply</text>
 </plain>
 <instances>
 <instance part="R1" gate="G$1" x="137.16" y="104.14" rot="R90"/>
